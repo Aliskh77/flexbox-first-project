@@ -1,0 +1,48 @@
+/* ---------------fonts css code-------------- */
+
+/* Vazir-Medium*/
+@font-face {
+   font-family: Vazir-Medium;
+   src: url(../fonts/Vazir-Medium.eot) format("eot"); 
+   src: url(../fonts/Vazir-Medium.woff) format("woff"); 
+   src: url(../fonts/Vazir-Medium.woff2) format("woff2"); 
+   
+}
+
+/* Vazir-Bold*/
+@font-face {
+   font-family: Vazir-Bold;
+   src: url(../fonts/Vazir-Bold.eot) format("eot"); 
+   src: url(../fonts/Vazir-Bold.woff) format("woff"); 
+   src: url(../fonts/Vazir-Bold.woff2) format("woff2"); 
+   
+}
+
+
+/*----------Project Css Reset Code Start--------------- */
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: Vazir-Medium;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: Vazir-Bold;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style:none ;
+}
